@@ -1,0 +1,6 @@
+# 纯 Python 签名复现 + 自检
+pycryptodome>=3.20
+requests>=2.31
+
+# 可选：用 Unicorn 直接跑 APK 里的 libEncryptor.so（tools/emu_core.py、selftest.py）
+unicorn>=2.0
